@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BurnFlow — Daily Metabolic Support</title>
+  <meta name="description" content="BurnFlow is a dietary supplement designed to support a healthy metabolism, appetite discipline, and everyday energy when paired with diet and exercise." />
+  <style>
+    :root { --ink:#111; --muted:#555; --line:#e8e8e8; }
+    html, body { background:#fff; margin:0; padding:0; color:var(--ink); font: 16px/1.55 system-ui, -apple-system, Segoe UI, Roboto, Inter, Helvetica, Arial, sans-serif; }
+    * { box-sizing: border-box; }
+    .wrap { max-width: 780px; margin: 0 auto; padding: 18px; }
+    header { padding: 10px 0 6px; border-bottom:1px solid var(--line); }
+    .brand { font-weight: 800; letter-spacing: .2px; }
+    .notice { font-size: 12px; color: var(--muted); margin-top: 4px; }
+    .hero h1 { font-size: 38px; line-height: 1.1; margin: 22px 0 10px; }
+    .hero p { color: var(--muted); margin: 0 0 14px; }
+    .hero img { width: 72%; max-width: 520px; display: block; margin: 12px auto; height: auto; }
+    .factlist { list-style: disc inside; padding:0; margin: 10px 0 0; color:#2b2b2b; }
+    hr { border:0; border-top:1px solid var(--line); margin: 22px 0; }
+    h2 { font-size: 22px; margin: 0 0 8px; }
+    .tiny { font-size: 13px; color: var(--muted); }
+    .selector { border:1px solid var(--line); border-radius: 12px; padding: 10px; }
+    .option { display:flex; align-items:center; gap:10px; padding:10px; border-radius:10px; }
+    .option + .option { border-top:1px dashed var(--line); }
+    .option label { flex: 1; cursor: pointer; }
+    .option small { color: var(--muted); }
+    .buybar { display:flex; gap:10px; flex-wrap:wrap; align-items:center; padding: 10px 0 0; }
+    .btn { display:inline-block; background:#111; color:#fff; padding:12px 18px; border-radius: 9px; font-weight:700; }
+    .muted { color:var(--muted); }
+    details { border:1px solid var(--line); border-radius: 12px; padding: 12px 14px; }
+    details + details { margin-top: 10px; }
+    summary { cursor: pointer; font-weight:600; }
+    footer { border-top:1px solid var(--line); padding: 14px 0; margin-top: 10px; font-size: 13px; color: var(--muted); }
+    a { color:#0a66c2; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .toc { position: sticky; top: 8px; border:1px solid var(--line); border-radius:10px; padding:10px; }
+    .toc a { display:block; padding: 6px 0; font-size:14px; color:#333; }
+    .toc a + a { border-top:1px dashed var(--line); }
+    @media (min-width: 900px) {
+      .layout { display:grid; grid-template-columns: 220px 1fr; gap: 24px; }
+      nav.toc { height: fit-content; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header aria-label="Top">
+      <div class="brand">BurnFlow</div>
+      <div class="notice">Dietary supplement • 60 capsules per bottle • Soy‑Free • Gluten‑Free</div>
+    </header>
+
+    <div class="layout">
+      <nav class="toc" aria-label="On this page">
+        <a href="#overview">Overview</a>
+        <a href="#choose">Choose your supply</a>
+        <a href="#routine">How it fits your routine</a>
+        <a href="#faq">FAQ</a>
+        <a href="#disclaimer">Safety & disclaimers</a>
+      </nav>
+
+      <main>
+        <section id="overview" class="hero" aria-label="Overview">
+          <h1>Metabolic support for everyday life</h1>
+          <p>BurnFlow is a simple daily supplement for adults. It supports a healthy metabolism, appetite discipline, and steady energy — and works best when paired with a balanced diet, hydration, and regular exercise.</p>
+          <!-- Images linked relative to this file: ./assets/ -->
+          <img src="assets/img-3-bottles.webp" alt="BurnFlow bottles" width="520" height="480" />
+          <ul class="factlist">
+            <li>60 capsules per bottle</li>
+            <li>Clinically researched ingredients</li>
+            <li>No promises of rapid or guaranteed weight loss</li>
+          </ul>
+        </section>
+
+        <hr />
+
+        <section id="choose" aria-label="Select a package">
+          <h2>Choose your supply</h2>
+          <p class="tiny">Pick one option and continue. Checkout is processed securely by ClickBank.</p>
+          <div class="selector" role="radiogroup" aria-label="Package options">
+            <div class="option">
+              <input type="radio" id="pkg2" name="pkg" value="2" />
+              <label for="pkg2"><strong>2 Bottles</strong> — ~120‑capsule supply <br /><small>Good for starting a routine</small></label>
+              <img src="assets/img-2-bottles.webp" alt="Two bottles" width="84" height="80" />
+            </div>
+            <div class="option">
+              <input type="radio" id="pkg3" name="pkg" value="3" checked />
+              <label for="pkg3"><strong>3 Bottles</strong> — ~180‑capsule supply <br /><small>Popular for building consistency</small></label>
+              <img src="assets/img-3-bottles.webp" alt="Three bottles" width="84" height="80" />
+            </div>
+            <div class="option">
+              <input type="radio" id="pkg6" name="pkg" value="6" />
+              <label for="pkg6"><strong>6 Bottles</strong> — ~360‑capsule supply <br /><small>Best for long‑term use</small></label>
+              <img src="assets/img-6-bottles.webp" alt="Six bottles" width="84" height="80" />
+            </div>
+          </div>
+
+          <div class="buybar">
+            <a id="buyBtn" class="btn" href="https://burnflo.pay.clickbank.net/?cbfid=60443&cbitems=BURN03FE&template=burnflow3" rel="nofollow noopener">Continue to secure checkout</a>
+            <span class="tiny muted">Refunds supported by ClickBank’s 60‑day policy. Taxes and shipping (if any) shown at checkout.</span>
+          </div>
+        </section>
+
+        <hr />
+
+        <section id="routine" aria-label="Routine">
+          <h2>How it fits your routine</h2>
+          <ol>
+            <li><strong>Daily use:</strong> Adults take only as directed on the bottle. Do not exceed suggested use.</li>
+            <li><strong>Pair with habits:</strong> Use alongside balanced meals, movement, and hydration for best results.</li>
+            <li><strong>Mindful expectations:</strong> Supplements support healthy living — they’re not a replacement. Individual results vary.</li>
+          </ol>
+          <p class="tiny">Always read and follow the label. Talk to a healthcare professional if you have questions about use.</p>
+        </section>
+
+        <hr />
+
+        <section id="faq" aria-label="Frequently asked questions">
+          <h2>FAQ</h2>
+          <details>
+            <summary>Is BurnFlow a medicine?</summary>
+            <p>No. It is a dietary supplement and not intended to diagnose, treat, cure, or prevent any disease.</p>
+          </details>
+          <details>
+            <summary>Who should consult a professional first?</summary>
+            <p>Consult a physician before use if you are pregnant or nursing, under 18, taking medication, or have a medical condition.</p>
+          </details>
+          <details>
+            <summary>How should I expect to feel?</summary>
+            <p>Everyone is different. BurnFlow is formulated to support metabolism and energy as part of a healthy lifestyle. There are no promised timelines or guarantees.</p>
+          </details>
+        </section>
+
+        <hr />
+
+        <section id="disclaimer" class="tiny" aria-label="Safety and disclaimers">
+          <h2>Safety & disclaimers</h2>
+          <p>Statements on this page have not been evaluated by the U.S. Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</p>
+          <p>This page is informational and does not replace medical advice. Use only as directed on the label. Stop use and consult a professional if you experience any discomfort.</p>
+          <p>Policies: <a href="https://getburnflow.com/lgl/privacy-policy" rel="nofollow">Privacy</a> • <a href="https://getburnflow.com/lgl/terms-of-service" rel="nofollow">Terms</a> • <a href="https://getburnflow.com/lgl/returns" rel="nofollow">Returns</a> • <a href="https://getburnflow.com/lgl/shipping" rel="nofollow">Shipping</a></p>
+        </section>
+
+        <footer>
+          <div>© <span id="year"></span> BurnFlow. All rights reserved.</div>
+          <div>ClickBank is the retailer of this product. ClickBank’s role as retailer does not constitute an endorsement, approval, or review of this product or any claim, statement, or opinion used in promotion of this product.</div>
+          <div>Contact: <a href="mailto:support@getburnflow.com">support@getburnflow.com</a></div>
+        </footer>
+      </main>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const btn = document.getElementById('buyBtn');
+    const links = {
+      "2": "https://burnflo.pay.clickbank.net/?cbfid=60443&cbitems=BURN02FE&template=burnflow2",
+      "3": "https://burnflo.pay.clickbank.net/?cbfid=60443&cbitems=BURN03FE&template=burnflow3",
+      "6": "https://burnflo.pay.clickbank.net/?cbfid=60450&cbitems=BURN06FE&template=burnflow6"
+    };
+    document.querySelectorAll('input[name="pkg"]').forEach(r => {
+      r.addEventListener('change', () => { btn.href = links[r.value]; });
+    });
+  </script>
+</body>
+</html>
